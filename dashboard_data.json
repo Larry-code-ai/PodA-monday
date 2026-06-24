@@ -1,0 +1,2816 @@
+{
+  "meta": {
+    "generated_at": "2026-06-24 02:37",
+    "as_of": "2026-06-24",
+    "source_label": "Pod_A_Success_Total_Cohort_24-06-2026_12-33-16_PM",
+    "enrolled_definition": "Next Term Enrollment Status = \"Enrolled\"",
+    "totals": {
+      "students": 3821,
+      "partners": 4,
+      "consultants": 14
+    }
+  },
+  "partner_meta": {
+    "JCU": {
+      "code": "JCU",
+      "name": "JCU Online",
+      "short": "JCU Online"
+    },
+    "RMIT": {
+      "code": "RMIT",
+      "name": "RMIT Online",
+      "short": "RMIT Online"
+    },
+    "SCU": {
+      "code": "SCU",
+      "name": "SCU Online",
+      "short": "SCU Online"
+    },
+    "UTS": {
+      "code": "UTS",
+      "name": "UTS Online",
+      "short": "UTS Online"
+    }
+  },
+  "partners": {
+    "JCU": {
+      "total": 572,
+      "attempted": 572,
+      "pct_att": 100.0,
+      "connected": 549,
+      "pct_con": 96.0,
+      "next_enrolled": 308,
+      "pct_next_enrolled": 53.8,
+      "current_enrolled": 313,
+      "stale60": 17,
+      "avg_days": 26.4,
+      "next_status": {
+        "Enrolled": 308,
+        "Not Active": 216,
+        "Graduated": 36,
+        "Withdrawn": 11,
+        "Leave of Absence": 1
+      },
+      "contact_buckets": {
+        "0-7d": 148,
+        "8-14d": 107,
+        "15-30d": 89,
+        "31-60d": 211,
+        "60+d": 17,
+        "Never": 0
+      },
+      "code": "JCU",
+      "name": "JCU Online",
+      "rag": "a",
+      "consultant_stats": [
+        {
+          "name": "Kaushi Kalugalla",
+          "total": 266,
+          "next_enrolled": 151,
+          "pct_next_enrolled": 56.8,
+          "pct_con": 97.0,
+          "stale60": 8,
+          "rag": "a",
+          "is_team": false
+        },
+        {
+          "name": "Lika Paulo",
+          "total": 212,
+          "next_enrolled": 108,
+          "pct_next_enrolled": 50.9,
+          "pct_con": 93.9,
+          "stale60": 6,
+          "rag": "a",
+          "is_team": false
+        },
+        {
+          "name": "Tasneem Tarafdar",
+          "total": 94,
+          "next_enrolled": 49,
+          "pct_next_enrolled": 52.1,
+          "pct_con": 97.9,
+          "stale60": 3,
+          "rag": "a",
+          "is_team": false
+        }
+      ]
+    },
+    "RMIT": {
+      "total": 84,
+      "attempted": 84,
+      "pct_att": 100.0,
+      "connected": 78,
+      "pct_con": 92.9,
+      "next_enrolled": 52,
+      "pct_next_enrolled": 61.9,
+      "current_enrolled": 63,
+      "stale60": 8,
+      "avg_days": 31.8,
+      "next_status": {
+        "Enrolled": 52,
+        "Not Active": 25,
+        "Graduated": 7
+      },
+      "contact_buckets": {
+        "0-7d": 12,
+        "8-14d": 11,
+        "15-30d": 22,
+        "31-60d": 31,
+        "60+d": 8,
+        "Never": 0
+      },
+      "code": "RMIT",
+      "name": "RMIT Online",
+      "rag": "a",
+      "consultant_stats": [
+        {
+          "name": "Lika Paulo",
+          "total": 84,
+          "next_enrolled": 52,
+          "pct_next_enrolled": 61.9,
+          "pct_con": 92.9,
+          "stale60": 8,
+          "rag": "a",
+          "is_team": false
+        }
+      ]
+    },
+    "SCU": {
+      "total": 831,
+      "attempted": 830,
+      "pct_att": 99.9,
+      "connected": 789,
+      "pct_con": 94.9,
+      "next_enrolled": 440,
+      "pct_next_enrolled": 52.9,
+      "current_enrolled": 502,
+      "stale60": 67,
+      "avg_days": 25.4,
+      "next_status": {
+        "Enrolled": 440,
+        "Not Active": 295,
+        "Graduated": 59,
+        "Leave of Absence": 34,
+        "Withdrawn": 3
+      },
+      "contact_buckets": {
+        "0-7d": 223,
+        "8-14d": 153,
+        "15-30d": 225,
+        "31-60d": 163,
+        "60+d": 67,
+        "Never": 0
+      },
+      "code": "SCU",
+      "name": "SCU Online",
+      "rag": "a",
+      "consultant_stats": [
+        {
+          "name": "Emily Liao",
+          "total": 288,
+          "next_enrolled": 152,
+          "pct_next_enrolled": 52.8,
+          "pct_con": 95.8,
+          "stale60": 22,
+          "rag": "a",
+          "is_team": false
+        },
+        {
+          "name": "Gurman Kaur",
+          "total": 272,
+          "next_enrolled": 144,
+          "pct_next_enrolled": 52.9,
+          "pct_con": 94.1,
+          "stale60": 17,
+          "rag": "a",
+          "is_team": false
+        },
+        {
+          "name": "Jacinta Hughes",
+          "total": 270,
+          "next_enrolled": 144,
+          "pct_next_enrolled": 53.3,
+          "pct_con": 94.8,
+          "stale60": 27,
+          "rag": "a",
+          "is_team": false
+        },
+        {
+          "name": "Team (unassigned)",
+          "total": 1,
+          "next_enrolled": 0,
+          "pct_next_enrolled": 0.0,
+          "pct_con": 100.0,
+          "stale60": 1,
+          "rag": "r",
+          "is_team": true
+        }
+      ]
+    },
+    "UTS": {
+      "total": 2334,
+      "attempted": 2328,
+      "pct_att": 99.7,
+      "connected": 2235,
+      "pct_con": 95.8,
+      "next_enrolled": 1618,
+      "pct_next_enrolled": 69.3,
+      "current_enrolled": 1915,
+      "stale60": 182,
+      "avg_days": 23.1,
+      "next_status": {
+        "Enrolled": 1618,
+        "Not Active": 370,
+        "Graduated": 251,
+        "Leave of Absence": 87,
+        "Withdrawn": 8
+      },
+      "contact_buckets": {
+        "0-7d": 741,
+        "8-14d": 470,
+        "15-30d": 461,
+        "31-60d": 480,
+        "60+d": 182,
+        "Never": 0
+      },
+      "code": "UTS",
+      "name": "UTS Online",
+      "rag": "a",
+      "consultant_stats": [
+        {
+          "name": "Geoffrey Tawil",
+          "total": 315,
+          "next_enrolled": 243,
+          "pct_next_enrolled": 77.1,
+          "pct_con": 94.9,
+          "stale60": 52,
+          "rag": "g",
+          "is_team": false
+        },
+        {
+          "name": "Richa Dogra",
+          "total": 303,
+          "next_enrolled": 221,
+          "pct_next_enrolled": 72.9,
+          "pct_con": 94.4,
+          "stale60": 41,
+          "rag": "g",
+          "is_team": false
+        },
+        {
+          "name": "Aquila Bartuah",
+          "total": 304,
+          "next_enrolled": 212,
+          "pct_next_enrolled": 69.7,
+          "pct_con": 93.4,
+          "stale60": 24,
+          "rag": "a",
+          "is_team": false
+        },
+        {
+          "name": "Andrew Wedderburn",
+          "total": 295,
+          "next_enrolled": 198,
+          "pct_next_enrolled": 67.1,
+          "pct_con": 96.6,
+          "stale60": 21,
+          "rag": "a",
+          "is_team": false
+        },
+        {
+          "name": "Lavanya Gupta",
+          "total": 295,
+          "next_enrolled": 197,
+          "pct_next_enrolled": 66.8,
+          "pct_con": 95.3,
+          "stale60": 23,
+          "rag": "a",
+          "is_team": false
+        },
+        {
+          "name": "Sharon Pangalos",
+          "total": 255,
+          "next_enrolled": 192,
+          "pct_next_enrolled": 75.3,
+          "pct_con": 97.6,
+          "stale60": 13,
+          "rag": "g",
+          "is_team": false
+        },
+        {
+          "name": "Josie Trifunovic",
+          "total": 301,
+          "next_enrolled": 191,
+          "pct_next_enrolled": 63.5,
+          "pct_con": 97.7,
+          "stale60": 3,
+          "rag": "a",
+          "is_team": false
+        },
+        {
+          "name": "Lily Soriano",
+          "total": 266,
+          "next_enrolled": 164,
+          "pct_next_enrolled": 61.7,
+          "pct_con": 96.6,
+          "stale60": 5,
+          "rag": "a",
+          "is_team": false
+        }
+      ]
+    }
+  },
+  "consultants": {
+    "Andrew Wedderburn": {
+      "total": 295,
+      "attempted": 293,
+      "pct_att": 99.3,
+      "connected": 285,
+      "pct_con": 96.6,
+      "next_enrolled": 198,
+      "pct_next_enrolled": 67.1,
+      "current_enrolled": 227,
+      "stale60": 21,
+      "avg_days": 27.7,
+      "next_status": {
+        "Enrolled": 198,
+        "Not Active": 59,
+        "Graduated": 31,
+        "Leave of Absence": 7
+      },
+      "contact_buckets": {
+        "0-7d": 74,
+        "8-14d": 46,
+        "15-30d": 64,
+        "31-60d": 90,
+        "60+d": 21,
+        "Never": 0
+      },
+      "name": "Andrew Wedderburn",
+      "partner": "UTS",
+      "partner_counts": {
+        "UTS": 295
+      },
+      "rag": "a",
+      "is_team": false,
+      "table_rows": [
+        {
+          "program": "Master of Business Administration",
+          "leads": 77,
+          "next_enrolled": 60,
+          "pct_next_enrolled": 77.9,
+          "attempted": 77,
+          "connected": 74,
+          "pct_con": 96.1,
+          "avg_days": 34.2,
+          "buckets": {
+            "0-7d": 20,
+            "8-14d": 6,
+            "15-30d": 17,
+            "31-60d": 24,
+            "60+d": 10,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Property Development",
+          "leads": 53,
+          "next_enrolled": 38,
+          "pct_next_enrolled": 71.7,
+          "attempted": 53,
+          "connected": 52,
+          "pct_con": 98.1,
+          "avg_days": 21.3,
+          "buckets": {
+            "0-7d": 17,
+            "8-14d": 11,
+            "15-30d": 7,
+            "31-60d": 15,
+            "60+d": 3,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Technology Management",
+          "leads": 46,
+          "next_enrolled": 16,
+          "pct_next_enrolled": 34.8,
+          "attempted": 46,
+          "connected": 46,
+          "pct_con": 100.0,
+          "avg_days": 24.7,
+          "buckets": {
+            "0-7d": 10,
+            "8-14d": 6,
+            "15-30d": 17,
+            "31-60d": 12,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Urban Planning",
+          "leads": 42,
+          "next_enrolled": 26,
+          "pct_next_enrolled": 61.9,
+          "attempted": 42,
+          "connected": 41,
+          "pct_con": 97.6,
+          "avg_days": 22.0,
+          "buckets": {
+            "0-7d": 9,
+            "8-14d": 14,
+            "15-30d": 7,
+            "31-60d": 10,
+            "60+d": 2,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Strategic Communication",
+          "leads": 28,
+          "next_enrolled": 25,
+          "pct_next_enrolled": 89.3,
+          "attempted": 26,
+          "connected": 25,
+          "pct_con": 89.3,
+          "avg_days": 34.1,
+          "buckets": {
+            "0-7d": 5,
+            "8-14d": 1,
+            "15-30d": 9,
+            "31-60d": 11,
+            "60+d": 2,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Sustainable Leadership",
+          "leads": 23,
+          "next_enrolled": 14,
+          "pct_next_enrolled": 60.9,
+          "attempted": 23,
+          "connected": 22,
+          "pct_con": 95.7,
+          "avg_days": 21.5,
+          "buckets": {
+            "0-7d": 9,
+            "8-14d": 2,
+            "15-30d": 4,
+            "31-60d": 7,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Business Analytics",
+          "leads": 15,
+          "next_enrolled": 11,
+          "pct_next_enrolled": 73.3,
+          "attempted": 15,
+          "connected": 14,
+          "pct_con": 93.3,
+          "avg_days": 32.5,
+          "buckets": {
+            "0-7d": 4,
+            "8-14d": 3,
+            "15-30d": 1,
+            "31-60d": 6,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Sustainable Energy",
+          "leads": 9,
+          "next_enrolled": 6,
+          "pct_next_enrolled": 66.7,
+          "attempted": 9,
+          "connected": 9,
+          "pct_con": 100.0,
+          "avg_days": 37.3,
+          "buckets": {
+            "0-7d": 0,
+            "8-14d": 3,
+            "15-30d": 2,
+            "31-60d": 3,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Urban Design",
+          "leads": 2,
+          "next_enrolled": 2,
+          "pct_next_enrolled": 100.0,
+          "attempted": 2,
+          "connected": 2,
+          "pct_con": 100.0,
+          "avg_days": 41.5,
+          "buckets": {
+            "0-7d": 0,
+            "8-14d": 0,
+            "15-30d": 0,
+            "31-60d": 2,
+            "60+d": 0,
+            "Never": 0
+          }
+        }
+      ]
+    },
+    "Aquila Bartuah": {
+      "total": 304,
+      "attempted": 304,
+      "pct_att": 100.0,
+      "connected": 284,
+      "pct_con": 93.4,
+      "next_enrolled": 212,
+      "pct_next_enrolled": 69.7,
+      "current_enrolled": 246,
+      "stale60": 24,
+      "avg_days": 19.9,
+      "next_status": {
+        "Enrolled": 212,
+        "Not Active": 54,
+        "Graduated": 23,
+        "Leave of Absence": 13,
+        "Withdrawn": 2
+      },
+      "contact_buckets": {
+        "0-7d": 110,
+        "8-14d": 59,
+        "15-30d": 63,
+        "31-60d": 48,
+        "60+d": 24,
+        "Never": 0
+      },
+      "name": "Aquila Bartuah",
+      "partner": "UTS",
+      "partner_counts": {
+        "UTS": 304
+      },
+      "rag": "a",
+      "is_team": false,
+      "table_rows": [
+        {
+          "program": "Master of Advanced Nursing",
+          "leads": 94,
+          "next_enrolled": 82,
+          "pct_next_enrolled": 87.2,
+          "attempted": 94,
+          "connected": 87,
+          "pct_con": 92.6,
+          "avg_days": 21.2,
+          "buckets": {
+            "0-7d": 30,
+            "8-14d": 17,
+            "15-30d": 24,
+            "31-60d": 15,
+            "60+d": 8,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Graduate Diploma in Psychology (Advanced)",
+          "leads": 82,
+          "next_enrolled": 57,
+          "pct_next_enrolled": 69.5,
+          "attempted": 82,
+          "connected": 77,
+          "pct_con": 93.9,
+          "avg_days": 18.7,
+          "buckets": {
+            "0-7d": 35,
+            "8-14d": 17,
+            "15-30d": 11,
+            "31-60d": 11,
+            "60+d": 8,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Women’s and Children’s Health",
+          "leads": 46,
+          "next_enrolled": 33,
+          "pct_next_enrolled": 71.7,
+          "attempted": 46,
+          "connected": 42,
+          "pct_con": 91.3,
+          "avg_days": 18.1,
+          "buckets": {
+            "0-7d": 20,
+            "8-14d": 6,
+            "15-30d": 8,
+            "31-60d": 10,
+            "60+d": 2,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Graduate Diploma in Psychology",
+          "leads": 45,
+          "next_enrolled": 37,
+          "pct_next_enrolled": 82.2,
+          "attempted": 45,
+          "connected": 44,
+          "pct_con": 97.8,
+          "avg_days": 19.7,
+          "buckets": {
+            "0-7d": 15,
+            "8-14d": 9,
+            "15-30d": 13,
+            "31-60d": 4,
+            "60+d": 4,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Graduate Certificate in Child and Family Health",
+          "leads": 36,
+          "next_enrolled": 2,
+          "pct_next_enrolled": 5.6,
+          "attempted": 36,
+          "connected": 33,
+          "pct_con": 91.7,
+          "avg_days": 21.4,
+          "buckets": {
+            "0-7d": 10,
+            "8-14d": 10,
+            "15-30d": 6,
+            "31-60d": 8,
+            "60+d": 2,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Education (Learning and Leadership)",
+          "leads": 1,
+          "next_enrolled": 1,
+          "pct_next_enrolled": 100.0,
+          "attempted": 1,
+          "connected": 1,
+          "pct_con": 100.0,
+          "avg_days": 20.0,
+          "buckets": {
+            "0-7d": 0,
+            "8-14d": 0,
+            "15-30d": 1,
+            "31-60d": 0,
+            "60+d": 0,
+            "Never": 0
+          }
+        }
+      ]
+    },
+    "Emily Liao": {
+      "total": 288,
+      "attempted": 288,
+      "pct_att": 100.0,
+      "connected": 276,
+      "pct_con": 95.8,
+      "next_enrolled": 152,
+      "pct_next_enrolled": 52.8,
+      "current_enrolled": 172,
+      "stale60": 22,
+      "avg_days": 24.2,
+      "next_status": {
+        "Enrolled": 152,
+        "Not Active": 92,
+        "Graduated": 31,
+        "Leave of Absence": 12,
+        "Withdrawn": 1
+      },
+      "contact_buckets": {
+        "0-7d": 70,
+        "8-14d": 57,
+        "15-30d": 84,
+        "31-60d": 55,
+        "60+d": 22,
+        "Never": 0
+      },
+      "name": "Emily Liao",
+      "partner": "SCU",
+      "partner_counts": {
+        "SCU": 288
+      },
+      "rag": "a",
+      "is_team": false,
+      "table_rows": [
+        {
+          "program": "Master of Business Administration",
+          "leads": 72,
+          "next_enrolled": 37,
+          "pct_next_enrolled": 51.4,
+          "attempted": 72,
+          "connected": 67,
+          "pct_con": 93.1,
+          "avg_days": 24.9,
+          "buckets": {
+            "0-7d": 17,
+            "8-14d": 9,
+            "15-30d": 29,
+            "31-60d": 11,
+            "60+d": 6,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Education",
+          "leads": 52,
+          "next_enrolled": 27,
+          "pct_next_enrolled": 51.9,
+          "attempted": 52,
+          "connected": 48,
+          "pct_con": 92.3,
+          "avg_days": 29.7,
+          "buckets": {
+            "0-7d": 12,
+            "8-14d": 11,
+            "15-30d": 10,
+            "31-60d": 12,
+            "60+d": 7,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Mental Health",
+          "leads": 41,
+          "next_enrolled": 20,
+          "pct_next_enrolled": 48.8,
+          "attempted": 41,
+          "connected": 40,
+          "pct_con": 97.6,
+          "avg_days": 21.8,
+          "buckets": {
+            "0-7d": 14,
+            "8-14d": 7,
+            "15-30d": 8,
+            "31-60d": 10,
+            "60+d": 2,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Healthcare Leadership",
+          "leads": 38,
+          "next_enrolled": 21,
+          "pct_next_enrolled": 55.3,
+          "attempted": 38,
+          "connected": 37,
+          "pct_con": 97.4,
+          "avg_days": 22.2,
+          "buckets": {
+            "0-7d": 9,
+            "8-14d": 10,
+            "15-30d": 10,
+            "31-60d": 7,
+            "60+d": 2,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Engineering Management",
+          "leads": 31,
+          "next_enrolled": 21,
+          "pct_next_enrolled": 67.7,
+          "attempted": 31,
+          "connected": 31,
+          "pct_con": 100.0,
+          "avg_days": 20.9,
+          "buckets": {
+            "0-7d": 9,
+            "8-14d": 6,
+            "15-30d": 10,
+            "31-60d": 5,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Business Law",
+          "leads": 28,
+          "next_enrolled": 12,
+          "pct_next_enrolled": 42.9,
+          "attempted": 28,
+          "connected": 28,
+          "pct_con": 100.0,
+          "avg_days": 22.6,
+          "buckets": {
+            "0-7d": 4,
+            "8-14d": 9,
+            "15-30d": 9,
+            "31-60d": 3,
+            "60+d": 3,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Project Management",
+          "leads": 22,
+          "next_enrolled": 12,
+          "pct_next_enrolled": 54.5,
+          "attempted": 22,
+          "connected": 21,
+          "pct_con": 95.5,
+          "avg_days": 19.9,
+          "buckets": {
+            "0-7d": 5,
+            "8-14d": 5,
+            "15-30d": 7,
+            "31-60d": 5,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Information Technology Management",
+          "leads": 2,
+          "next_enrolled": 1,
+          "pct_next_enrolled": 50.0,
+          "attempted": 2,
+          "connected": 2,
+          "pct_con": 100.0,
+          "avg_days": 52.0,
+          "buckets": {
+            "0-7d": 0,
+            "8-14d": 0,
+            "15-30d": 0,
+            "31-60d": 1,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Laws (Business)",
+          "leads": 2,
+          "next_enrolled": 1,
+          "pct_next_enrolled": 50.0,
+          "attempted": 2,
+          "connected": 2,
+          "pct_con": 100.0,
+          "avg_days": 34.0,
+          "buckets": {
+            "0-7d": 0,
+            "8-14d": 0,
+            "15-30d": 1,
+            "31-60d": 1,
+            "60+d": 0,
+            "Never": 0
+          }
+        }
+      ]
+    },
+    "Geoffrey Tawil": {
+      "total": 315,
+      "attempted": 313,
+      "pct_att": 99.4,
+      "connected": 299,
+      "pct_con": 94.9,
+      "next_enrolled": 243,
+      "pct_next_enrolled": 77.1,
+      "current_enrolled": 275,
+      "stale60": 52,
+      "avg_days": 30.4,
+      "next_status": {
+        "Enrolled": 243,
+        "Graduated": 44,
+        "Not Active": 16,
+        "Leave of Absence": 9,
+        "Withdrawn": 3
+      },
+      "contact_buckets": {
+        "0-7d": 81,
+        "8-14d": 73,
+        "15-30d": 47,
+        "31-60d": 62,
+        "60+d": 52,
+        "Never": 0
+      },
+      "name": "Geoffrey Tawil",
+      "partner": "UTS",
+      "partner_counts": {
+        "UTS": 315
+      },
+      "rag": "g",
+      "is_team": false,
+      "table_rows": [
+        {
+          "program": "Graduate Diploma in Psychology (Advanced)",
+          "leads": 98,
+          "next_enrolled": 77,
+          "pct_next_enrolled": 78.6,
+          "attempted": 97,
+          "connected": 89,
+          "pct_con": 90.8,
+          "avg_days": 42.8,
+          "buckets": {
+            "0-7d": 18,
+            "8-14d": 18,
+            "15-30d": 10,
+            "31-60d": 25,
+            "60+d": 27,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Advanced Nursing",
+          "leads": 64,
+          "next_enrolled": 44,
+          "pct_next_enrolled": 68.8,
+          "attempted": 64,
+          "connected": 61,
+          "pct_con": 95.3,
+          "avg_days": 28.7,
+          "buckets": {
+            "0-7d": 16,
+            "8-14d": 11,
+            "15-30d": 17,
+            "31-60d": 8,
+            "60+d": 12,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Public Health",
+          "leads": 59,
+          "next_enrolled": 47,
+          "pct_next_enrolled": 79.7,
+          "attempted": 58,
+          "connected": 55,
+          "pct_con": 93.2,
+          "avg_days": 20.5,
+          "buckets": {
+            "0-7d": 17,
+            "8-14d": 24,
+            "15-30d": 4,
+            "31-60d": 11,
+            "60+d": 3,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Graduate Diploma in Psychology",
+          "leads": 48,
+          "next_enrolled": 39,
+          "pct_next_enrolled": 81.2,
+          "attempted": 48,
+          "connected": 48,
+          "pct_con": 100.0,
+          "avg_days": 20.6,
+          "buckets": {
+            "0-7d": 16,
+            "8-14d": 12,
+            "15-30d": 7,
+            "31-60d": 10,
+            "60+d": 3,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Health Services Management",
+          "leads": 46,
+          "next_enrolled": 36,
+          "pct_next_enrolled": 78.3,
+          "attempted": 46,
+          "connected": 46,
+          "pct_con": 100.0,
+          "avg_days": 29.6,
+          "buckets": {
+            "0-7d": 14,
+            "8-14d": 8,
+            "15-30d": 9,
+            "31-60d": 8,
+            "60+d": 7,
+            "Never": 0
+          }
+        }
+      ]
+    },
+    "Gurman Kaur": {
+      "total": 272,
+      "attempted": 272,
+      "pct_att": 100.0,
+      "connected": 256,
+      "pct_con": 94.1,
+      "next_enrolled": 144,
+      "pct_next_enrolled": 52.9,
+      "current_enrolled": 168,
+      "stale60": 17,
+      "avg_days": 24.6,
+      "next_status": {
+        "Enrolled": 144,
+        "Not Active": 98,
+        "Graduated": 21,
+        "Leave of Absence": 8,
+        "Withdrawn": 1
+      },
+      "contact_buckets": {
+        "0-7d": 61,
+        "8-14d": 74,
+        "15-30d": 56,
+        "31-60d": 64,
+        "60+d": 17,
+        "Never": 0
+      },
+      "name": "Gurman Kaur",
+      "partner": "SCU",
+      "partner_counts": {
+        "SCU": 272
+      },
+      "rag": "a",
+      "is_team": false,
+      "table_rows": [
+        {
+          "program": "Master of Project Management",
+          "leads": 95,
+          "next_enrolled": 38,
+          "pct_next_enrolled": 40.0,
+          "attempted": 95,
+          "connected": 90,
+          "pct_con": 94.7,
+          "avg_days": 22.1,
+          "buckets": {
+            "0-7d": 23,
+            "8-14d": 32,
+            "15-30d": 17,
+            "31-60d": 17,
+            "60+d": 6,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Business Administration",
+          "leads": 59,
+          "next_enrolled": 37,
+          "pct_next_enrolled": 62.7,
+          "attempted": 59,
+          "connected": 57,
+          "pct_con": 96.6,
+          "avg_days": 26.0,
+          "buckets": {
+            "0-7d": 15,
+            "8-14d": 14,
+            "15-30d": 9,
+            "31-60d": 17,
+            "60+d": 4,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Healthcare Leadership",
+          "leads": 34,
+          "next_enrolled": 21,
+          "pct_next_enrolled": 61.8,
+          "attempted": 34,
+          "connected": 32,
+          "pct_con": 94.1,
+          "avg_days": 22.6,
+          "buckets": {
+            "0-7d": 9,
+            "8-14d": 8,
+            "15-30d": 8,
+            "31-60d": 7,
+            "60+d": 2,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Mental Health",
+          "leads": 34,
+          "next_enrolled": 18,
+          "pct_next_enrolled": 52.9,
+          "attempted": 34,
+          "connected": 31,
+          "pct_con": 91.2,
+          "avg_days": 34.8,
+          "buckets": {
+            "0-7d": 1,
+            "8-14d": 7,
+            "15-30d": 13,
+            "31-60d": 9,
+            "60+d": 4,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Business Law",
+          "leads": 23,
+          "next_enrolled": 9,
+          "pct_next_enrolled": 39.1,
+          "attempted": 23,
+          "connected": 23,
+          "pct_con": 100.0,
+          "avg_days": 16.6,
+          "buckets": {
+            "0-7d": 7,
+            "8-14d": 9,
+            "15-30d": 3,
+            "31-60d": 3,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Education",
+          "leads": 17,
+          "next_enrolled": 13,
+          "pct_next_enrolled": 76.5,
+          "attempted": 17,
+          "connected": 14,
+          "pct_con": 82.4,
+          "avg_days": 27.2,
+          "buckets": {
+            "0-7d": 4,
+            "8-14d": 2,
+            "15-30d": 4,
+            "31-60d": 7,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Engineering Management",
+          "leads": 8,
+          "next_enrolled": 7,
+          "pct_next_enrolled": 87.5,
+          "attempted": 8,
+          "connected": 7,
+          "pct_con": 87.5,
+          "avg_days": 24.1,
+          "buckets": {
+            "0-7d": 2,
+            "8-14d": 1,
+            "15-30d": 2,
+            "31-60d": 3,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Information Technology Management",
+          "leads": 1,
+          "next_enrolled": 0,
+          "pct_next_enrolled": 0.0,
+          "attempted": 1,
+          "connected": 1,
+          "pct_con": 100.0,
+          "avg_days": 11.0,
+          "buckets": {
+            "0-7d": 0,
+            "8-14d": 1,
+            "15-30d": 0,
+            "31-60d": 0,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Laws (Business)",
+          "leads": 1,
+          "next_enrolled": 1,
+          "pct_next_enrolled": 100.0,
+          "attempted": 1,
+          "connected": 1,
+          "pct_con": 100.0,
+          "avg_days": 49.0,
+          "buckets": {
+            "0-7d": 0,
+            "8-14d": 0,
+            "15-30d": 0,
+            "31-60d": 1,
+            "60+d": 0,
+            "Never": 0
+          }
+        }
+      ]
+    },
+    "Jacinta Hughes": {
+      "total": 270,
+      "attempted": 269,
+      "pct_att": 99.6,
+      "connected": 256,
+      "pct_con": 94.8,
+      "next_enrolled": 144,
+      "pct_next_enrolled": 53.3,
+      "current_enrolled": 162,
+      "stale60": 27,
+      "avg_days": 27.0,
+      "next_status": {
+        "Enrolled": 144,
+        "Not Active": 104,
+        "Leave of Absence": 14,
+        "Graduated": 7,
+        "Withdrawn": 1
+      },
+      "contact_buckets": {
+        "0-7d": 92,
+        "8-14d": 22,
+        "15-30d": 85,
+        "31-60d": 44,
+        "60+d": 27,
+        "Never": 0
+      },
+      "name": "Jacinta Hughes",
+      "partner": "SCU",
+      "partner_counts": {
+        "SCU": 270
+      },
+      "rag": "a",
+      "is_team": false,
+      "table_rows": [
+        {
+          "program": "Master of Business Administration",
+          "leads": 66,
+          "next_enrolled": 38,
+          "pct_next_enrolled": 57.6,
+          "attempted": 66,
+          "connected": 62,
+          "pct_con": 93.9,
+          "avg_days": 23.3,
+          "buckets": {
+            "0-7d": 23,
+            "8-14d": 4,
+            "15-30d": 23,
+            "31-60d": 10,
+            "60+d": 6,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Business Law",
+          "leads": 52,
+          "next_enrolled": 20,
+          "pct_next_enrolled": 38.5,
+          "attempted": 52,
+          "connected": 52,
+          "pct_con": 100.0,
+          "avg_days": 27.6,
+          "buckets": {
+            "0-7d": 19,
+            "8-14d": 6,
+            "15-30d": 17,
+            "31-60d": 5,
+            "60+d": 5,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Education",
+          "leads": 42,
+          "next_enrolled": 21,
+          "pct_next_enrolled": 50.0,
+          "attempted": 42,
+          "connected": 39,
+          "pct_con": 92.9,
+          "avg_days": 25.2,
+          "buckets": {
+            "0-7d": 14,
+            "8-14d": 5,
+            "15-30d": 13,
+            "31-60d": 4,
+            "60+d": 6,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Mental Health",
+          "leads": 36,
+          "next_enrolled": 19,
+          "pct_next_enrolled": 52.8,
+          "attempted": 36,
+          "connected": 34,
+          "pct_con": 94.4,
+          "avg_days": 34.8,
+          "buckets": {
+            "0-7d": 11,
+            "8-14d": 3,
+            "15-30d": 9,
+            "31-60d": 8,
+            "60+d": 5,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Project Management",
+          "leads": 30,
+          "next_enrolled": 19,
+          "pct_next_enrolled": 63.3,
+          "attempted": 29,
+          "connected": 29,
+          "pct_con": 96.7,
+          "avg_days": 25.0,
+          "buckets": {
+            "0-7d": 10,
+            "8-14d": 3,
+            "15-30d": 9,
+            "31-60d": 7,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Healthcare Leadership",
+          "leads": 29,
+          "next_enrolled": 19,
+          "pct_next_enrolled": 65.5,
+          "attempted": 29,
+          "connected": 26,
+          "pct_con": 89.7,
+          "avg_days": 35.6,
+          "buckets": {
+            "0-7d": 7,
+            "8-14d": 1,
+            "15-30d": 9,
+            "31-60d": 8,
+            "60+d": 4,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Engineering Management",
+          "leads": 15,
+          "next_enrolled": 8,
+          "pct_next_enrolled": 53.3,
+          "attempted": 15,
+          "connected": 14,
+          "pct_con": 93.3,
+          "avg_days": 14.8,
+          "buckets": {
+            "0-7d": 8,
+            "8-14d": 0,
+            "15-30d": 5,
+            "31-60d": 2,
+            "60+d": 0,
+            "Never": 0
+          }
+        }
+      ]
+    },
+    "Josie Trifunovic": {
+      "total": 301,
+      "attempted": 301,
+      "pct_att": 100.0,
+      "connected": 294,
+      "pct_con": 97.7,
+      "next_enrolled": 191,
+      "pct_next_enrolled": 63.5,
+      "current_enrolled": 231,
+      "stale60": 3,
+      "avg_days": 14.6,
+      "next_status": {
+        "Enrolled": 191,
+        "Not Active": 57,
+        "Graduated": 33,
+        "Leave of Absence": 18,
+        "Withdrawn": 2
+      },
+      "contact_buckets": {
+        "0-7d": 131,
+        "8-14d": 60,
+        "15-30d": 64,
+        "31-60d": 43,
+        "60+d": 3,
+        "Never": 0
+      },
+      "name": "Josie Trifunovic",
+      "partner": "UTS",
+      "partner_counts": {
+        "UTS": 301
+      },
+      "rag": "a",
+      "is_team": false,
+      "table_rows": [
+        {
+          "program": "Master of International Relations",
+          "leads": 68,
+          "next_enrolled": 34,
+          "pct_next_enrolled": 50.0,
+          "attempted": 68,
+          "connected": 66,
+          "pct_con": 97.1,
+          "avg_days": 15.0,
+          "buckets": {
+            "0-7d": 31,
+            "8-14d": 15,
+            "15-30d": 7,
+            "31-60d": 14,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Business Administration",
+          "leads": 61,
+          "next_enrolled": 45,
+          "pct_next_enrolled": 73.8,
+          "attempted": 61,
+          "connected": 61,
+          "pct_con": 100.0,
+          "avg_days": 15.0,
+          "buckets": {
+            "0-7d": 27,
+            "8-14d": 12,
+            "15-30d": 11,
+            "31-60d": 10,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Strategic Communication",
+          "leads": 55,
+          "next_enrolled": 36,
+          "pct_next_enrolled": 65.5,
+          "attempted": 55,
+          "connected": 54,
+          "pct_con": 98.2,
+          "avg_days": 14.8,
+          "buckets": {
+            "0-7d": 22,
+            "8-14d": 9,
+            "15-30d": 19,
+            "31-60d": 5,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Education (Learning and Leadership)",
+          "leads": 50,
+          "next_enrolled": 28,
+          "pct_next_enrolled": 56.0,
+          "attempted": 50,
+          "connected": 48,
+          "pct_con": 96.0,
+          "avg_days": 13.9,
+          "buckets": {
+            "0-7d": 21,
+            "8-14d": 10,
+            "15-30d": 13,
+            "31-60d": 6,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Urban Planning",
+          "leads": 37,
+          "next_enrolled": 26,
+          "pct_next_enrolled": 70.3,
+          "attempted": 37,
+          "connected": 35,
+          "pct_con": 94.6,
+          "avg_days": 11.7,
+          "buckets": {
+            "0-7d": 19,
+            "8-14d": 8,
+            "15-30d": 6,
+            "31-60d": 4,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Sustainable Leadership",
+          "leads": 17,
+          "next_enrolled": 12,
+          "pct_next_enrolled": 70.6,
+          "attempted": 17,
+          "connected": 17,
+          "pct_con": 100.0,
+          "avg_days": 20.4,
+          "buckets": {
+            "0-7d": 6,
+            "8-14d": 3,
+            "15-30d": 4,
+            "31-60d": 3,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Sustainable Energy",
+          "leads": 6,
+          "next_enrolled": 5,
+          "pct_next_enrolled": 83.3,
+          "attempted": 6,
+          "connected": 6,
+          "pct_con": 100.0,
+          "avg_days": 16.3,
+          "buckets": {
+            "0-7d": 2,
+            "8-14d": 1,
+            "15-30d": 2,
+            "31-60d": 1,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Urban Design",
+          "leads": 5,
+          "next_enrolled": 4,
+          "pct_next_enrolled": 80.0,
+          "attempted": 5,
+          "connected": 5,
+          "pct_con": 100.0,
+          "avg_days": 12.0,
+          "buckets": {
+            "0-7d": 2,
+            "8-14d": 1,
+            "15-30d": 2,
+            "31-60d": 0,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Digital Marketing",
+          "leads": 2,
+          "next_enrolled": 1,
+          "pct_next_enrolled": 50.0,
+          "attempted": 2,
+          "connected": 2,
+          "pct_con": 100.0,
+          "avg_days": 10.5,
+          "buckets": {
+            "0-7d": 1,
+            "8-14d": 1,
+            "15-30d": 0,
+            "31-60d": 0,
+            "60+d": 0,
+            "Never": 0
+          }
+        }
+      ]
+    },
+    "Kaushi Kalugalla": {
+      "total": 266,
+      "attempted": 266,
+      "pct_att": 100.0,
+      "connected": 258,
+      "pct_con": 97.0,
+      "next_enrolled": 151,
+      "pct_next_enrolled": 56.8,
+      "current_enrolled": 139,
+      "stale60": 8,
+      "avg_days": 25.7,
+      "next_status": {
+        "Enrolled": 151,
+        "Not Active": 93,
+        "Graduated": 15,
+        "Withdrawn": 7
+      },
+      "contact_buckets": {
+        "0-7d": 83,
+        "8-14d": 43,
+        "15-30d": 30,
+        "31-60d": 102,
+        "60+d": 8,
+        "Never": 0
+      },
+      "name": "Kaushi Kalugalla",
+      "partner": "JCU",
+      "partner_counts": {
+        "JCU": 266
+      },
+      "rag": "a",
+      "is_team": false,
+      "table_rows": [
+        {
+          "program": "Master of Nursing",
+          "leads": 144,
+          "next_enrolled": 66,
+          "pct_next_enrolled": 45.8,
+          "attempted": 144,
+          "connected": 138,
+          "pct_con": 95.8,
+          "avg_days": 21.2,
+          "buckets": {
+            "0-7d": 55,
+            "8-14d": 26,
+            "15-30d": 16,
+            "31-60d": 45,
+            "60+d": 2,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Psychology (Bridging)",
+          "leads": 111,
+          "next_enrolled": 82,
+          "pct_next_enrolled": 73.9,
+          "attempted": 111,
+          "connected": 109,
+          "pct_con": 98.2,
+          "avg_days": 31.6,
+          "buckets": {
+            "0-7d": 25,
+            "8-14d": 15,
+            "15-30d": 14,
+            "31-60d": 51,
+            "60+d": 6,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Business Administration (Global)",
+          "leads": 6,
+          "next_enrolled": 0,
+          "pct_next_enrolled": 0.0,
+          "attempted": 6,
+          "connected": 6,
+          "pct_con": 100.0,
+          "avg_days": 34.0,
+          "buckets": {
+            "0-7d": 1,
+            "8-14d": 0,
+            "15-30d": 0,
+            "31-60d": 5,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Data Science",
+          "leads": 5,
+          "next_enrolled": 3,
+          "pct_next_enrolled": 60.0,
+          "attempted": 5,
+          "connected": 5,
+          "pct_con": 100.0,
+          "avg_days": 12.2,
+          "buckets": {
+            "0-7d": 2,
+            "8-14d": 2,
+            "15-30d": 0,
+            "31-60d": 1,
+            "60+d": 0,
+            "Never": 0
+          }
+        }
+      ]
+    },
+    "Lavanya Gupta": {
+      "total": 295,
+      "attempted": 294,
+      "pct_att": 99.7,
+      "connected": 281,
+      "pct_con": 95.3,
+      "next_enrolled": 197,
+      "pct_next_enrolled": 66.8,
+      "current_enrolled": 250,
+      "stale60": 23,
+      "avg_days": 26.9,
+      "next_status": {
+        "Enrolled": 197,
+        "Graduated": 46,
+        "Not Active": 42,
+        "Leave of Absence": 9,
+        "Withdrawn": 1
+      },
+      "contact_buckets": {
+        "0-7d": 77,
+        "8-14d": 56,
+        "15-30d": 44,
+        "31-60d": 95,
+        "60+d": 23,
+        "Never": 0
+      },
+      "name": "Lavanya Gupta",
+      "partner": "UTS",
+      "partner_counts": {
+        "UTS": 295
+      },
+      "rag": "a",
+      "is_team": false,
+      "table_rows": [
+        {
+          "program": "Master of Property Development",
+          "leads": 94,
+          "next_enrolled": 57,
+          "pct_next_enrolled": 60.6,
+          "attempted": 94,
+          "connected": 90,
+          "pct_con": 95.7,
+          "avg_days": 27.6,
+          "buckets": {
+            "0-7d": 27,
+            "8-14d": 18,
+            "15-30d": 13,
+            "31-60d": 27,
+            "60+d": 9,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Business Administration",
+          "leads": 81,
+          "next_enrolled": 54,
+          "pct_next_enrolled": 66.7,
+          "attempted": 81,
+          "connected": 79,
+          "pct_con": 97.5,
+          "avg_days": 29.4,
+          "buckets": {
+            "0-7d": 19,
+            "8-14d": 16,
+            "15-30d": 8,
+            "31-60d": 29,
+            "60+d": 9,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Education (Learning and Leadership)",
+          "leads": 50,
+          "next_enrolled": 36,
+          "pct_next_enrolled": 72.0,
+          "attempted": 49,
+          "connected": 46,
+          "pct_con": 92.0,
+          "avg_days": 23.0,
+          "buckets": {
+            "0-7d": 11,
+            "8-14d": 10,
+            "15-30d": 14,
+            "31-60d": 13,
+            "60+d": 2,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Technology Management",
+          "leads": 37,
+          "next_enrolled": 23,
+          "pct_next_enrolled": 62.2,
+          "attempted": 37,
+          "connected": 36,
+          "pct_con": 97.3,
+          "avg_days": 28.0,
+          "buckets": {
+            "0-7d": 11,
+            "8-14d": 4,
+            "15-30d": 5,
+            "31-60d": 15,
+            "60+d": 2,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Advanced Nursing",
+          "leads": 20,
+          "next_enrolled": 20,
+          "pct_next_enrolled": 100.0,
+          "attempted": 20,
+          "connected": 17,
+          "pct_con": 85.0,
+          "avg_days": 25.2,
+          "buckets": {
+            "0-7d": 4,
+            "8-14d": 5,
+            "15-30d": 3,
+            "31-60d": 7,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Digital Marketing",
+          "leads": 12,
+          "next_enrolled": 6,
+          "pct_next_enrolled": 50.0,
+          "attempted": 12,
+          "connected": 12,
+          "pct_con": 100.0,
+          "avg_days": 18.3,
+          "buckets": {
+            "0-7d": 5,
+            "8-14d": 3,
+            "15-30d": 1,
+            "31-60d": 3,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of International Relations",
+          "leads": 1,
+          "next_enrolled": 1,
+          "pct_next_enrolled": 100.0,
+          "attempted": 1,
+          "connected": 1,
+          "pct_con": 100.0,
+          "avg_days": 40.0,
+          "buckets": {
+            "0-7d": 0,
+            "8-14d": 0,
+            "15-30d": 0,
+            "31-60d": 1,
+            "60+d": 0,
+            "Never": 0
+          }
+        }
+      ]
+    },
+    "Lika Paulo": {
+      "total": 296,
+      "attempted": 296,
+      "pct_att": 100.0,
+      "connected": 277,
+      "pct_con": 93.6,
+      "next_enrolled": 160,
+      "pct_next_enrolled": 54.1,
+      "current_enrolled": 176,
+      "stale60": 14,
+      "avg_days": 29.6,
+      "next_status": {
+        "Enrolled": 160,
+        "Not Active": 109,
+        "Graduated": 23,
+        "Withdrawn": 3,
+        "Leave of Absence": 1
+      },
+      "contact_buckets": {
+        "0-7d": 57,
+        "8-14d": 53,
+        "15-30d": 54,
+        "31-60d": 118,
+        "60+d": 14,
+        "Never": 0
+      },
+      "name": "Lika Paulo",
+      "partner": "JCU",
+      "partner_counts": {
+        "JCU": 212,
+        "RMIT": 84
+      },
+      "rag": "a",
+      "is_team": false,
+      "table_rows": [
+        {
+          "program": "Master of Nursing",
+          "leads": 115,
+          "next_enrolled": 60,
+          "pct_next_enrolled": 52.2,
+          "attempted": 115,
+          "connected": 109,
+          "pct_con": 94.8,
+          "avg_days": 30.8,
+          "buckets": {
+            "0-7d": 23,
+            "8-14d": 19,
+            "15-30d": 17,
+            "31-60d": 52,
+            "60+d": 4,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Psychology (Bridging)",
+          "leads": 82,
+          "next_enrolled": 42,
+          "pct_next_enrolled": 51.2,
+          "attempted": 82,
+          "connected": 75,
+          "pct_con": 91.5,
+          "avg_days": 24.3,
+          "buckets": {
+            "0-7d": 19,
+            "8-14d": 22,
+            "15-30d": 12,
+            "31-60d": 29,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Data Science Strategy & Leadership",
+          "leads": 46,
+          "next_enrolled": 24,
+          "pct_next_enrolled": 52.2,
+          "attempted": 46,
+          "connected": 42,
+          "pct_con": 91.3,
+          "avg_days": 31.3,
+          "buckets": {
+            "0-7d": 8,
+            "8-14d": 5,
+            "15-30d": 13,
+            "31-60d": 16,
+            "60+d": 4,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Business Analytics and AI Strategy",
+          "leads": 38,
+          "next_enrolled": 28,
+          "pct_next_enrolled": 73.7,
+          "attempted": 38,
+          "connected": 36,
+          "pct_con": 94.7,
+          "avg_days": 32.5,
+          "buckets": {
+            "0-7d": 4,
+            "8-14d": 6,
+            "15-30d": 9,
+            "31-60d": 15,
+            "60+d": 4,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Data Science",
+          "leads": 10,
+          "next_enrolled": 5,
+          "pct_next_enrolled": 50.0,
+          "attempted": 10,
+          "connected": 10,
+          "pct_con": 100.0,
+          "avg_days": 30.4,
+          "buckets": {
+            "0-7d": 3,
+            "8-14d": 1,
+            "15-30d": 2,
+            "31-60d": 3,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Business Administration (Global)",
+          "leads": 5,
+          "next_enrolled": 1,
+          "pct_next_enrolled": 20.0,
+          "attempted": 5,
+          "connected": 5,
+          "pct_con": 100.0,
+          "avg_days": 52.6,
+          "buckets": {
+            "0-7d": 0,
+            "8-14d": 0,
+            "15-30d": 1,
+            "31-60d": 3,
+            "60+d": 1,
+            "Never": 0
+          }
+        }
+      ]
+    },
+    "Lily Soriano": {
+      "total": 266,
+      "attempted": 266,
+      "pct_att": 100.0,
+      "connected": 257,
+      "pct_con": 96.6,
+      "next_enrolled": 164,
+      "pct_next_enrolled": 61.7,
+      "current_enrolled": 213,
+      "stale60": 5,
+      "avg_days": 15.5,
+      "next_status": {
+        "Enrolled": 164,
+        "Not Active": 54,
+        "Graduated": 35,
+        "Leave of Absence": 13
+      },
+      "contact_buckets": {
+        "0-7d": 109,
+        "8-14d": 62,
+        "15-30d": 60,
+        "31-60d": 30,
+        "60+d": 5,
+        "Never": 0
+      },
+      "name": "Lily Soriano",
+      "partner": "UTS",
+      "partner_counts": {
+        "UTS": 266
+      },
+      "rag": "a",
+      "is_team": false,
+      "table_rows": [
+        {
+          "program": "Master of Advanced Nursing",
+          "leads": 61,
+          "next_enrolled": 50,
+          "pct_next_enrolled": 82.0,
+          "attempted": 61,
+          "connected": 61,
+          "pct_con": 100.0,
+          "avg_days": 15.2,
+          "buckets": {
+            "0-7d": 33,
+            "8-14d": 12,
+            "15-30d": 7,
+            "31-60d": 8,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Graduate Diploma in Psychology (Advanced)",
+          "leads": 50,
+          "next_enrolled": 31,
+          "pct_next_enrolled": 62.0,
+          "attempted": 50,
+          "connected": 47,
+          "pct_con": 94.0,
+          "avg_days": 13.2,
+          "buckets": {
+            "0-7d": 22,
+            "8-14d": 10,
+            "15-30d": 13,
+            "31-60d": 5,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Graduate Diploma in Psychology",
+          "leads": 41,
+          "next_enrolled": 33,
+          "pct_next_enrolled": 80.5,
+          "attempted": 41,
+          "connected": 41,
+          "pct_con": 100.0,
+          "avg_days": 14.9,
+          "buckets": {
+            "0-7d": 15,
+            "8-14d": 8,
+            "15-30d": 16,
+            "31-60d": 2,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Graduate Certificate in Child and Family Health",
+          "leads": 33,
+          "next_enrolled": 4,
+          "pct_next_enrolled": 12.1,
+          "attempted": 33,
+          "connected": 30,
+          "pct_con": 90.9,
+          "avg_days": 13.9,
+          "buckets": {
+            "0-7d": 15,
+            "8-14d": 7,
+            "15-30d": 7,
+            "31-60d": 3,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Public Health",
+          "leads": 32,
+          "next_enrolled": 17,
+          "pct_next_enrolled": 53.1,
+          "attempted": 32,
+          "connected": 30,
+          "pct_con": 93.8,
+          "avg_days": 17.6,
+          "buckets": {
+            "0-7d": 12,
+            "8-14d": 9,
+            "15-30d": 7,
+            "31-60d": 2,
+            "60+d": 2,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Health Services Management",
+          "leads": 27,
+          "next_enrolled": 17,
+          "pct_next_enrolled": 63.0,
+          "attempted": 27,
+          "connected": 26,
+          "pct_con": 96.3,
+          "avg_days": 18.2,
+          "buckets": {
+            "0-7d": 9,
+            "8-14d": 5,
+            "15-30d": 7,
+            "31-60d": 6,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Women’s and Children’s Health",
+          "leads": 20,
+          "next_enrolled": 11,
+          "pct_next_enrolled": 55.0,
+          "attempted": 20,
+          "connected": 20,
+          "pct_con": 100.0,
+          "avg_days": 19.1,
+          "buckets": {
+            "0-7d": 2,
+            "8-14d": 11,
+            "15-30d": 2,
+            "31-60d": 4,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Medical Science Leadership",
+          "leads": 2,
+          "next_enrolled": 1,
+          "pct_next_enrolled": 50.0,
+          "attempted": 2,
+          "connected": 2,
+          "pct_con": 100.0,
+          "avg_days": 14.5,
+          "buckets": {
+            "0-7d": 1,
+            "8-14d": 0,
+            "15-30d": 1,
+            "31-60d": 0,
+            "60+d": 0,
+            "Never": 0
+          }
+        }
+      ]
+    },
+    "Richa Dogra": {
+      "total": 303,
+      "attempted": 302,
+      "pct_att": 99.7,
+      "connected": 286,
+      "pct_con": 94.4,
+      "next_enrolled": 221,
+      "pct_next_enrolled": 72.9,
+      "current_enrolled": 250,
+      "stale60": 41,
+      "avg_days": 29.1,
+      "next_status": {
+        "Enrolled": 221,
+        "Not Active": 43,
+        "Graduated": 28,
+        "Leave of Absence": 11
+      },
+      "contact_buckets": {
+        "0-7d": 66,
+        "8-14d": 59,
+        "15-30d": 69,
+        "31-60d": 68,
+        "60+d": 41,
+        "Never": 0
+      },
+      "name": "Richa Dogra",
+      "partner": "UTS",
+      "partner_counts": {
+        "UTS": 303
+      },
+      "rag": "g",
+      "is_team": false,
+      "table_rows": [
+        {
+          "program": "Master of Advanced Nursing",
+          "leads": 102,
+          "next_enrolled": 84,
+          "pct_next_enrolled": 82.4,
+          "attempted": 102,
+          "connected": 95,
+          "pct_con": 93.1,
+          "avg_days": 34.0,
+          "buckets": {
+            "0-7d": 21,
+            "8-14d": 21,
+            "15-30d": 20,
+            "31-60d": 21,
+            "60+d": 19,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Graduate Diploma in Psychology (Advanced)",
+          "leads": 92,
+          "next_enrolled": 72,
+          "pct_next_enrolled": 78.3,
+          "attempted": 91,
+          "connected": 91,
+          "pct_con": 98.9,
+          "avg_days": 24.7,
+          "buckets": {
+            "0-7d": 20,
+            "8-14d": 26,
+            "15-30d": 22,
+            "31-60d": 13,
+            "60+d": 11,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Graduate Diploma in Psychology",
+          "leads": 38,
+          "next_enrolled": 28,
+          "pct_next_enrolled": 73.7,
+          "attempted": 38,
+          "connected": 33,
+          "pct_con": 86.8,
+          "avg_days": 24.8,
+          "buckets": {
+            "0-7d": 9,
+            "8-14d": 6,
+            "15-30d": 12,
+            "31-60d": 8,
+            "60+d": 3,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Business Administration",
+          "leads": 29,
+          "next_enrolled": 23,
+          "pct_next_enrolled": 79.3,
+          "attempted": 29,
+          "connected": 28,
+          "pct_con": 96.6,
+          "avg_days": 26.7,
+          "buckets": {
+            "0-7d": 5,
+            "8-14d": 4,
+            "15-30d": 8,
+            "31-60d": 12,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Graduate Certificate in Child and Family Health",
+          "leads": 23,
+          "next_enrolled": 0,
+          "pct_next_enrolled": 0.0,
+          "attempted": 23,
+          "connected": 21,
+          "pct_con": 91.3,
+          "avg_days": 31.9,
+          "buckets": {
+            "0-7d": 6,
+            "8-14d": 1,
+            "15-30d": 4,
+            "31-60d": 7,
+            "60+d": 5,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Women’s and Children’s Health",
+          "leads": 16,
+          "next_enrolled": 12,
+          "pct_next_enrolled": 75.0,
+          "attempted": 16,
+          "connected": 15,
+          "pct_con": 93.8,
+          "avg_days": 30.6,
+          "buckets": {
+            "0-7d": 4,
+            "8-14d": 1,
+            "15-30d": 3,
+            "31-60d": 6,
+            "60+d": 2,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Digital Marketing",
+          "leads": 2,
+          "next_enrolled": 1,
+          "pct_next_enrolled": 50.0,
+          "attempted": 2,
+          "connected": 2,
+          "pct_con": 100.0,
+          "avg_days": 28.5,
+          "buckets": {
+            "0-7d": 1,
+            "8-14d": 0,
+            "15-30d": 0,
+            "31-60d": 1,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of International Relations",
+          "leads": 1,
+          "next_enrolled": 1,
+          "pct_next_enrolled": 100.0,
+          "attempted": 1,
+          "connected": 1,
+          "pct_con": 100.0,
+          "avg_days": 76.0,
+          "buckets": {
+            "0-7d": 0,
+            "8-14d": 0,
+            "15-30d": 0,
+            "31-60d": 0,
+            "60+d": 1,
+            "Never": 0
+          }
+        }
+      ]
+    },
+    "Sharon Pangalos": {
+      "total": 255,
+      "attempted": 255,
+      "pct_att": 100.0,
+      "connected": 249,
+      "pct_con": 97.6,
+      "next_enrolled": 192,
+      "pct_next_enrolled": 75.3,
+      "current_enrolled": 223,
+      "stale60": 13,
+      "avg_days": 19.4,
+      "next_status": {
+        "Enrolled": 192,
+        "Not Active": 45,
+        "Graduated": 11,
+        "Leave of Absence": 7
+      },
+      "contact_buckets": {
+        "0-7d": 93,
+        "8-14d": 55,
+        "15-30d": 50,
+        "31-60d": 44,
+        "60+d": 13,
+        "Never": 0
+      },
+      "name": "Sharon Pangalos",
+      "partner": "UTS",
+      "partner_counts": {
+        "UTS": 255
+      },
+      "rag": "g",
+      "is_team": false,
+      "table_rows": [
+        {
+          "program": "Master of Advanced Nursing",
+          "leads": 108,
+          "next_enrolled": 98,
+          "pct_next_enrolled": 90.7,
+          "attempted": 108,
+          "connected": 103,
+          "pct_con": 95.4,
+          "avg_days": 15.3,
+          "buckets": {
+            "0-7d": 40,
+            "8-14d": 24,
+            "15-30d": 24,
+            "31-60d": 17,
+            "60+d": 3,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Graduate Certificate in Child and Family Health",
+          "leads": 52,
+          "next_enrolled": 33,
+          "pct_next_enrolled": 63.5,
+          "attempted": 52,
+          "connected": 52,
+          "pct_con": 100.0,
+          "avg_days": 27.6,
+          "buckets": {
+            "0-7d": 23,
+            "8-14d": 7,
+            "15-30d": 7,
+            "31-60d": 10,
+            "60+d": 5,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Public Health",
+          "leads": 32,
+          "next_enrolled": 19,
+          "pct_next_enrolled": 59.4,
+          "attempted": 32,
+          "connected": 31,
+          "pct_con": 96.9,
+          "avg_days": 21.2,
+          "buckets": {
+            "0-7d": 13,
+            "8-14d": 4,
+            "15-30d": 6,
+            "31-60d": 6,
+            "60+d": 3,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Graduate Diploma in Psychology",
+          "leads": 27,
+          "next_enrolled": 14,
+          "pct_next_enrolled": 51.9,
+          "attempted": 27,
+          "connected": 27,
+          "pct_con": 100.0,
+          "avg_days": 14.4,
+          "buckets": {
+            "0-7d": 10,
+            "8-14d": 5,
+            "15-30d": 7,
+            "31-60d": 5,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Women’s and Children’s Health",
+          "leads": 23,
+          "next_enrolled": 20,
+          "pct_next_enrolled": 87.0,
+          "attempted": 23,
+          "connected": 23,
+          "pct_con": 100.0,
+          "avg_days": 25.4,
+          "buckets": {
+            "0-7d": 6,
+            "8-14d": 7,
+            "15-30d": 3,
+            "31-60d": 5,
+            "60+d": 2,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Graduate Diploma in Psychology (Advanced)",
+          "leads": 12,
+          "next_enrolled": 7,
+          "pct_next_enrolled": 58.3,
+          "attempted": 12,
+          "connected": 12,
+          "pct_con": 100.0,
+          "avg_days": 15.3,
+          "buckets": {
+            "0-7d": 1,
+            "8-14d": 7,
+            "15-30d": 3,
+            "31-60d": 1,
+            "60+d": 0,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Master of Medical Science Leadership",
+          "leads": 1,
+          "next_enrolled": 1,
+          "pct_next_enrolled": 100.0,
+          "attempted": 1,
+          "connected": 1,
+          "pct_con": 100.0,
+          "avg_days": 13.0,
+          "buckets": {
+            "0-7d": 0,
+            "8-14d": 1,
+            "15-30d": 0,
+            "31-60d": 0,
+            "60+d": 0,
+            "Never": 0
+          }
+        }
+      ]
+    },
+    "Tasneem Tarafdar": {
+      "total": 94,
+      "attempted": 94,
+      "pct_att": 100.0,
+      "connected": 92,
+      "pct_con": 97.9,
+      "next_enrolled": 49,
+      "pct_next_enrolled": 52.1,
+      "current_enrolled": 61,
+      "stale60": 3,
+      "avg_days": 23.1,
+      "next_status": {
+        "Enrolled": 49,
+        "Not Active": 39,
+        "Graduated": 5,
+        "Withdrawn": 1
+      },
+      "contact_buckets": {
+        "0-7d": 20,
+        "8-14d": 22,
+        "15-30d": 27,
+        "31-60d": 22,
+        "60+d": 3,
+        "Never": 0
+      },
+      "name": "Tasneem Tarafdar",
+      "partner": "JCU",
+      "partner_counts": {
+        "JCU": 94
+      },
+      "rag": "a",
+      "is_team": false,
+      "table_rows": [
+        {
+          "program": "Master of Nursing",
+          "leads": 53,
+          "next_enrolled": 25,
+          "pct_next_enrolled": 47.2,
+          "attempted": 53,
+          "connected": 52,
+          "pct_con": 98.1,
+          "avg_days": 23.0,
+          "buckets": {
+            "0-7d": 12,
+            "8-14d": 11,
+            "15-30d": 15,
+            "31-60d": 14,
+            "60+d": 1,
+            "Never": 0
+          }
+        },
+        {
+          "program": "Psychology (Bridging)",
+          "leads": 41,
+          "next_enrolled": 24,
+          "pct_next_enrolled": 58.5,
+          "attempted": 41,
+          "connected": 40,
+          "pct_con": 97.6,
+          "avg_days": 23.2,
+          "buckets": {
+            "0-7d": 8,
+            "8-14d": 11,
+            "15-30d": 12,
+            "31-60d": 8,
+            "60+d": 2,
+            "Never": 0
+          }
+        }
+      ]
+    },
+    "Team (unassigned)": {
+      "total": 1,
+      "attempted": 1,
+      "pct_att": 100.0,
+      "connected": 1,
+      "pct_con": 100.0,
+      "next_enrolled": 0,
+      "pct_next_enrolled": 0.0,
+      "current_enrolled": 0,
+      "stale60": 1,
+      "avg_days": 176.0,
+      "next_status": {
+        "Not Active": 1
+      },
+      "contact_buckets": {
+        "0-7d": 0,
+        "8-14d": 0,
+        "15-30d": 0,
+        "31-60d": 0,
+        "60+d": 1,
+        "Never": 0
+      },
+      "name": "Team (unassigned)",
+      "partner": "SCU",
+      "partner_counts": {
+        "SCU": 1
+      },
+      "rag": "r",
+      "is_team": true,
+      "table_rows": [
+        {
+          "program": "Master of Project Management",
+          "leads": 1,
+          "next_enrolled": 0,
+          "pct_next_enrolled": 0.0,
+          "attempted": 1,
+          "connected": 1,
+          "pct_con": 100.0,
+          "avg_days": 176.0,
+          "buckets": {
+            "0-7d": 0,
+            "8-14d": 0,
+            "15-30d": 0,
+            "31-60d": 0,
+            "60+d": 1,
+            "Never": 0
+          }
+        }
+      ]
+    }
+  },
+  "leaderboards": {
+    "enrolment": [
+      {
+        "name": "Geoffrey Tawil",
+        "partner": "UTS",
+        "value": 243
+      },
+      {
+        "name": "Richa Dogra",
+        "partner": "UTS",
+        "value": 221
+      },
+      {
+        "name": "Aquila Bartuah",
+        "partner": "UTS",
+        "value": 212
+      },
+      {
+        "name": "Andrew Wedderburn",
+        "partner": "UTS",
+        "value": 198
+      },
+      {
+        "name": "Lavanya Gupta",
+        "partner": "UTS",
+        "value": 197
+      },
+      {
+        "name": "Sharon Pangalos",
+        "partner": "UTS",
+        "value": 192
+      },
+      {
+        "name": "Josie Trifunovic",
+        "partner": "UTS",
+        "value": 191
+      },
+      {
+        "name": "Lily Soriano",
+        "partner": "UTS",
+        "value": 164
+      },
+      {
+        "name": "Lika Paulo",
+        "partner": "JCU",
+        "value": 160
+      },
+      {
+        "name": "Emily Liao",
+        "partner": "SCU",
+        "value": 152
+      },
+      {
+        "name": "Kaushi Kalugalla",
+        "partner": "JCU",
+        "value": 151
+      },
+      {
+        "name": "Gurman Kaur",
+        "partner": "SCU",
+        "value": 144
+      },
+      {
+        "name": "Jacinta Hughes",
+        "partner": "SCU",
+        "value": 144
+      },
+      {
+        "name": "Tasneem Tarafdar",
+        "partner": "JCU",
+        "value": 49
+      }
+    ],
+    "conversion": [
+      {
+        "name": "Geoffrey Tawil",
+        "partner": "UTS",
+        "value": 77.1
+      },
+      {
+        "name": "Sharon Pangalos",
+        "partner": "UTS",
+        "value": 75.3
+      },
+      {
+        "name": "Richa Dogra",
+        "partner": "UTS",
+        "value": 72.9
+      },
+      {
+        "name": "Aquila Bartuah",
+        "partner": "UTS",
+        "value": 69.7
+      },
+      {
+        "name": "Andrew Wedderburn",
+        "partner": "UTS",
+        "value": 67.1
+      },
+      {
+        "name": "Lavanya Gupta",
+        "partner": "UTS",
+        "value": 66.8
+      },
+      {
+        "name": "Josie Trifunovic",
+        "partner": "UTS",
+        "value": 63.5
+      },
+      {
+        "name": "Lily Soriano",
+        "partner": "UTS",
+        "value": 61.7
+      },
+      {
+        "name": "Kaushi Kalugalla",
+        "partner": "JCU",
+        "value": 56.8
+      },
+      {
+        "name": "Lika Paulo",
+        "partner": "JCU",
+        "value": 54.1
+      },
+      {
+        "name": "Jacinta Hughes",
+        "partner": "SCU",
+        "value": 53.3
+      },
+      {
+        "name": "Gurman Kaur",
+        "partner": "SCU",
+        "value": 52.9
+      },
+      {
+        "name": "Emily Liao",
+        "partner": "SCU",
+        "value": 52.8
+      },
+      {
+        "name": "Tasneem Tarafdar",
+        "partner": "JCU",
+        "value": 52.1
+      }
+    ]
+  },
+  "activity": {
+    "full": {
+      "attempts": 3814,
+      "contacts": 3651,
+      "by_partner": {
+        "JCU": {
+          "attempts": 572,
+          "contacts": 549
+        },
+        "RMIT": {
+          "attempts": 84,
+          "contacts": 78
+        },
+        "SCU": {
+          "attempts": 830,
+          "contacts": 789
+        },
+        "UTS": {
+          "attempts": 2328,
+          "contacts": 2235
+        }
+      }
+    },
+    "week": {
+      "attempts": 645,
+      "contacts": 370,
+      "by_partner": {
+        "JCU": {
+          "attempts": 81,
+          "contacts": 45
+        },
+        "RMIT": {
+          "attempts": 7,
+          "contacts": 6
+        },
+        "SCU": {
+          "attempts": 125,
+          "contacts": 62
+        },
+        "UTS": {
+          "attempts": 432,
+          "contacts": 257
+        }
+      }
+    },
+    "today": {
+      "attempts": 71,
+      "contacts": 39,
+      "by_partner": {
+        "JCU": {
+          "attempts": 18,
+          "contacts": 9
+        },
+        "RMIT": {
+          "attempts": 1,
+          "contacts": 0
+        },
+        "SCU": {
+          "attempts": 11,
+          "contacts": 6
+        },
+        "UTS": {
+          "attempts": 41,
+          "contacts": 24
+        }
+      }
+    }
+  }
+}
